@@ -31,7 +31,10 @@ If you're not in the mood to read, [Laracasts](https://laracasts.com) contains o
 - git clone <https://github.com/link_du_an>
 - cd /du_an
 - composer install
-- configure .env 
+- change .env.example to .env
+- configure .env (db)
+- run "php artisan migrate"
+- rung "php artisan db::seed"
 - run "php artisan key:generate"
 - cd public folder 
 - run bower install (cai dat them bower [Link](https://bower.io/))
